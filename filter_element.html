@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Element</title>
+    <script src="filter-element.js"></script>
+    <link rel="stylesheet" href="filter-element.css">
+</head>
+<body>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+        <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+        <button class="btn" onclick="filterSelection('computerlang')"> Computer Language</button>
+        <button class="btn" onclick="filterSelection('texteditor')"> Text Editor</button>
+    </div>
+    <div id="sidebar">
+        <button class="vbtn" onclick="filterSelection('basiclang')">Basic Language</button>
+        <button class="vbtn" onclick="filterSelection('besteditor')"> Best Editor</button>
+        <button class="vbtn" onclick="filterSelection('beast')"> Dangerous Animal</button>
+    </div>
+      
+    <div class="container">
+        <div class="filterDiv nature "><img src="https://www.imagesource.com/wp-content/uploads/2019/06/Rio.jpg" alt="" style="width:100px; height: 100px;"></div>
+        <div class="filterDiv nature"><img src="https://www.desicomments.com/wp-content/uploads/2017/02/Autumn-Image.jpg" alt="" style="width:100px; height: 100px;"></div>
+        <div class="filterDiv texteditor besteditor"><img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="" style="width: 100px;height: 100px;"></div>
+        <div class="filterDiv texteditor"><img src="https://www.pubnub.com/wp-content/uploads/2015/01/B62xj9FCUAA3YoC.png" alt="" style="width:100px; height: 100px;"></div>
+        <div class="filterDiv nature"><img src="https://www.desicomments.com/wp-content/uploads/2017/02/Autumn-Image.jpg" alt="" style="width:100px; height: 100px;"></div>
+        <div class="filterDiv texteditor besteditor"><img src="https://topbestalternative.com/wp-content/uploads/2020/05/turbo-c-logo.jpeg" alt="" style="width:100px; height: 100px;"></div>
+        <div class="filterDiv nature"><img src="https://www.desicomments.com/wp-content/uploads/2017/02/Autumn-Image.jpg" alt="" style="width:100px; height: 100px;"></div>
+        <div class="filterDiv texteditor"><img src="https://miro.medium.com/max/1200/1*6Dhu1H4t028lOGbaZuyRCw.png" alt="" style="width:100px; height: 100px;"></div>
+        <div class="filterDiv animals beast"><img src="https://hddesktopwallpapers.in/wp-content/uploads/2015/08/leopard-wild-animal.jpg" alt="" style="width:100px; height: 100px;"></div>
+        <div class="filterDiv animals"><img src="http://www.worldanimalfoundation.org/i/Piglet3.jpg" alt="" style="width:100px; height: 100px;"></div>
+        <div class="filterDiv computerlang basiclang"><img src="https://i.ytimg.com/vi/RUo-_zQebRw/maxresdefault.jpg" alt="" style="width: 100px;height: 100px;"></div>
+        <div class="filterDiv computerlang "><img src="https://analyticsindiamag.com/wp-content/uploads/2018/05/JAVA.jpg" alt="" style="width: 100px;height: 100px;"></div>
+        <div class="filterDiv computerlang basiclang"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/2000px-Javascript_badge.svg.png" alt="" style="width: 100px;height: 100px;"></div>
+        <div class="filterDiv computerlang"><img src="https://www.sovereignconsult.com/wp-content/uploads/2019/10/angular-js.png" alt="" style="width: 100px;height: 100px;"></div>
+        <div class="filterDiv animals beast"><img src="https://live.staticflickr.com/65535/49197164078_213e1fa761_z.jpg" alt="" style="width:100px; height: 100px;"></div>
+    </div>
+</body>
+</html>
